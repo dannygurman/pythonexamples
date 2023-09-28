@@ -12,7 +12,7 @@ from examples.kafka_examples.kafka_example_1.kafka_producer_1 import topicname,b
 # When set to earliest, the consumer starts reading at the latest committed offset.
 
 #Enable_auto_commit=True:
-# makes sure the consumer commits its read offset every interval.
+# makes sure the consumer commits its docs offset every interval.
 
 #auto_commit_interval_ms=1000ms:
 # sets the interval between two commits.

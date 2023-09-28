@@ -1,4 +1,4 @@
-from examples.generators.is_prime import is_prime
+from examples.generic.generators.is_prime import is_prime
 
 
 #getting prime with generator

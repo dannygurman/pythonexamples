@@ -1,6 +1,6 @@
 #https://realpython.com/python-f-strings/
 
-#F string  joined the party in Python 3.6. You can read all about it in PEP 498,
+#F string  joined the party in Python 3.6. You can docs all about it in PEP 498,
 # which was written by Eric V. Smith in August of 2015.
 
 # The syntax is similar to the one you used with str.format() but less verbose.

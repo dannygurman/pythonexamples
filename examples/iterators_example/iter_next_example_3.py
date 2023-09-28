@@ -11,7 +11,7 @@ with open(filename) as fp:
     for line in iter(fp.readline, sentinel=''):
         processLine(line)
 
-#When you run the program, it will open mydata.txt in read mode.
+#When you run the program, it will open mydata.txt in docs mode.
 
 #Then, the iter(fp.readline, '') in the for loop calls readline (which reads each line in the text file)
 # until the sentinel character '' (empty string) is reached.

@@ -8,7 +8,7 @@ requests.get('https://api.github.com', timeout=1)
 
 #You can also pass a tuple to timeout with the first element being a connect
 # timeout (the time it allows for the client to establish a connection to the server),
-# and the second being a read timeout (the time it will wait on a response once your client has established a connection):
+# and the second being a docs timeout (the time it will wait on a response once your client has established a connection):
 requests.get('https://api.github.com', timeout=(2, 5))
 
 # If the request establishes a connection within 2 seconds and receives data within 5 seconds of the connection being established,

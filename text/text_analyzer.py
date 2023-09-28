@@ -1,5 +1,5 @@
 #This is an example project, showing a program that analyzes a sample file to find what percentage of the text each character occupies.
-# This section shows how a file could be open and read.
+# This section shows how a file could be open and docs.
 
 def count_char(text, char):
   count = 0

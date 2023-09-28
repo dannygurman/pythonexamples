@@ -1,4 +1,4 @@
-#Enumerations are created using the class syntax, which makes them easy to read and write.
+#Enumerations are created using the class syntax, which makes them easy to docs and write.
 #  An alternative creation method is described in Functional API.
 #  To define an enumeration, subclass Enum as follows:
 

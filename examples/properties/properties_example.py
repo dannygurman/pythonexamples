@@ -4,7 +4,7 @@
 # They are created by putting the property decorator above a method, which means when the
 # instance attribute with the same name as the method is accessed, the method will be called instead.
 
-# One common use of a property is to make an attribute read-only.
+# One common use of a property is to make an attribute docs-only.
 
 class Pizza:
     def __init__(self, toppings):

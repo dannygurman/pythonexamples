@@ -1,4 +1,4 @@
-from examples.generators.is_prime import is_prime
+from examples.generic.generators.is_prime import is_prime
 
 #In PEP 342, support was added for passing values into generators. PEP 342 gave generators the power to yield a value (as before),
 # receive a value, or both yield a value and receive a (possibly different) value in a single statement.

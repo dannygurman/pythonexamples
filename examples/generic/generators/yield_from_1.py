@@ -1,7 +1,7 @@
 #https://stackoverflow.com/questions/9708902/in-practice-what-are-the-main-uses-for-the-new-yield-from-syntax-in-python-3
 
 def reader():
-    """A generator that fakes a read from a file, socket, etc."""
+    """A generator that fakes a docs from a file, socket, etc."""
     for i in range(4):
         print ("in reader")
         yield '<< %s' % i

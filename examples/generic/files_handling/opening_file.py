@@ -1,4 +1,4 @@
-# You can use Python to read and write the contents of  files.
+# You can use Python to docs and write the contents of  files.
 # Text files.
 # files are the easiest to manipulate.
 #  Before a file can be edited, it must be opened, using the open function.
@@ -11,7 +11,7 @@ binary_filename = "binaryfile.png"
 myfile = open(text_filename)
 
 # You can specify the mode used to open a file by applying a second argument to the open function.
-# Sending "r" means open in read mode, which is the default.
+# Sending "r" means open in docs mode, which is the default.
 # Sending "w" means write mode, for rewriting the contents of a file.
 # Sending "a" means append mode, for adding new content to the end of the file.
 #
@@ -20,7 +20,7 @@ myfile = open(text_filename)
 # write mode
 open(text_filename, "w")
 
-# read mode
+# docs mode
 open(text_filename, "r")
 open(text_filename)
 
