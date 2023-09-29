@@ -1,0 +1,16 @@
+pip list
+
+pip install <package>
+example:
+pip install boto3
+
+-- building requirements file
+pip freeze > requirements.txt(can be run from project terminal )
+
+uninstall
+pip uninstall module_name
+
+restore from requirements file
+pip install -r requirements.txt
+
+

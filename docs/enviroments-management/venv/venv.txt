@@ -1,0 +1,20 @@
+---Create virtual environment:
+
+python -m venv /path/to/new/virtual/environment
+python -m  venv  C:\dev\python-env
+
+--Activating venv
+Command to activate virtual environment
+Linux bash shell:$ source <venv>/bin/activate
+Windows PowerShell: $ <venv>/bin/Activate.ps1
+Windows CMD: C:\> <venv>\Scripts\activate.bat
+Using windows CMD example:
+>C:\dev\python-env\Scripts\activate.bat
+(python-env) C:\Users\danny>
+(python-env) - indicate that the "python-env" enviroment is active
+
+--Disabling venv
+Using windows CMD example:
+(python-env) C:\Users\danny>C:\dev\python-env\Scripts\deactivate.bat
+C:\Users\danny>
+this will switch back to default environment
