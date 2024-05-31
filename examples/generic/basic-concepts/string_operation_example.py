@@ -1,5 +1,4 @@
 # Concatenation
-
 print("Spam" + 'eggs')
 # Spameggs
 
@@ -17,6 +16,7 @@ print(4 * '2')
 # New line without \n -three sets of quotes, and newlines that are created by pressing E
 print ("""Customer: Good morning.
 Owner: Good morning, Sir. Welcome to the National Cheese Emporium.""")
+
 
 # print( '17' * '87')
 ## TypeError: can't multiply sequence by non-int of type 'str'
