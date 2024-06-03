@@ -7,6 +7,12 @@ On MAC:
 which python3
 /Library/Frameworks/Python.framework/Versions/3.12/bin/python3
 code ~/.zshrc
+add
+-----
+PYTHONPATH="/Library/Frameworks/Python.framework/Versions/3.12.3/bin/python3"
+export PYTHONPATH
+export PATH=$PYTHONPATH:$PATH
+-------
 
 
 
